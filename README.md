@@ -1,1 +1,1 @@
-# CS_50_Searchbar_Clone
+# CS_50_Search_bar_Clone
