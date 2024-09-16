@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.top-bar{
+    position:absolute;
+    top:3vh;
+    right:1vw;
+    font-size: 20px;
+    display: flex;
+    align-items:center;
+}
+.top-bar a,i,span{
+    margin: 0 10px;
+    text-decoration: none;
+}
+.menu{
+    font-size: 40px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+    background-color: rgb(0, 179, 255);
+    border-radius: 50%; 
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+.search-bar-container {
+    text-align: center;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 50px;
+    margin: 20px;
+    padding: 0px 20px;
+    width: 600px;
+}
+.search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    border-radius: 24px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+.search-bar:hover,.menu:hover,.profile:hover{
+    box-shadow: gray;
+    box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.2);
+}
+input[type="submit"]{
+    padding: 10px 20px;
+    margin: 20px 5px;
+    border:1px solid transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+input[type="submit"]:hover{
+    border: 1px solid rgb(189, 189, 189);
+}
+.search-bar .icon{
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+/* 
+ADVANCED SEARCH
+*/
+.logo-sm{
+    position: absolute;
+    top:3vh;
+    left:1vw;
+    width: 150px;
+    height: auto;
+}
+.advanced-container{
+    position: absolute;
+    left: 0px;
+    padding-left: 10px;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.advanced-container h1{
+    color: brown;
+}
+.advanced-container h2{
+    font-size: 1.5rem;
+    font-weight:400;
+}
+.advanced-container h3{
+    font-size: 1.2rem;
+    font-weight:400;
+}
+.horizontal-line{
+    border-bottom: 2px solid grey;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    width: 100vw;
+}
+.advanced-container form{
+    display: flex;
+    flex-direction: column;
+}
+.advanced-container .item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.advanced-container input{
+    position: absolute;
+    left: 220px;
+    width: 220px;
+    height: 25px;
+    font-size: 1.4rem;
+}
+.advanced-container .adv-btn{
+    position:relative;
+    width: 180px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 37px;
+}
